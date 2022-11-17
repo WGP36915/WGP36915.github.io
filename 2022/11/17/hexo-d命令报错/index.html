@@ -6,21 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://WGP36915.github.io">
-  <title>VsCode编写Hexo支持的MD文档 | Wu的博客</title>
+  <title>hexo-d命令报错 | Wu的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="vscode编写markdownmarkdown是用hexo写博客的可选文本格式之一，通常我们用hexo new xxx来创建一篇新的post。md编辑器有很多，预览我们hexo项目中的md文章的方法也有很多，我的方案是编辑与预览都在vscode中完成。 这里要先提一下在hexo3.0版本中编写md文件时新的图片插入方式：只要在_config.yml中添加post_asset_folder: tr">
+  <meta name="description" content="hexo d命令报错      errno 10054解决方法 或者重新执行以下命令 123npm install hexo-deployer-git --save #安装hexo-deployer-git 自动部署发布工具hexo g # 这是生成静态博客页面的命令hexo d # 把博客文件部署到GitHub中创建的仓库中">
 <meta property="og:type" content="article">
-<meta property="og:title" content="VsCode编写Hexo支持的MD文档">
-<meta property="og:url" content="https://wgp36915.github.io/2019/03/12/hexo%20d%20%E6%8A%A5%E9%94%99/index.html">
+<meta property="og:title" content="hexo-d命令报错">
+<meta property="og:url" content="https://wgp36915.github.io/2022/11/17/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/index.html">
 <meta property="og:site_name" content="Wu的博客">
-<meta property="og:description" content="vscode编写markdownmarkdown是用hexo写博客的可选文本格式之一，通常我们用hexo new xxx来创建一篇新的post。md编辑器有很多，预览我们hexo项目中的md文章的方法也有很多，我的方案是编辑与预览都在vscode中完成。 这里要先提一下在hexo3.0版本中编写md文件时新的图片插入方式：只要在_config.yml中添加post_asset_folder: tr">
+<meta property="og:description" content="hexo d命令报错      errno 10054解决方法 或者重新执行以下命令 123npm install hexo-deployer-git --save #安装hexo-deployer-git 自动部署发布工具hexo g # 这是生成静态博客页面的命令hexo d # 把博客文件部署到GitHub中创建的仓库中">
 <meta property="og:locale">
-<meta property="article:published_time" content="2019-03-12T04:12:57.000Z">
-<meta property="article:modified_time" content="2022-11-16T14:52:18.514Z">
+<meta property="og:image" content="https://wgp36915.github.io/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/1.PNG">
+<meta property="og:image" content="https://wgp36915.github.io/2022/11/17/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/1.PNG">
+<meta property="article:published_time" content="2022-11-17T15:48:23.000Z">
+<meta property="article:modified_time" content="2022-11-17T16:55:03.238Z">
 <meta property="article:author" content="Gordon Wu">
 <meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="Vscode">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://wgp36915.github.io/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/1.PNG">
   
     <link rel="alternative" href="/atom.xml" title="Wu的博客" type="application/atom+xml">
   
@@ -347,42 +349,34 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hexo d 报错" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-hexo-d命令报错" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      VsCode编写Hexo支持的MD文档
+      hexo-d命令报错
     </h1>
   
 
         
-        <a href="/2019/03/12/hexo%20d%20%E6%8A%A5%E9%94%99/" class="archive-article-date">
-  	<time datetime="2019-03-12T04:12:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-12</time>
+        <a href="/2022/11/17/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/" class="archive-article-date">
+  	<time datetime="2022-11-17T15:48:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-11-17</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="vscode编写markdown"><a href="#vscode编写markdown" class="headerlink" title="vscode编写markdown"></a>vscode编写markdown</h2><p>markdown是用hexo写博客的可选文本格式之一，通常我们用hexo new xxx来创建一篇新的post。md编辑器有很多，预览我们hexo项目中的md文章的方法也有很多，我的方案是编辑与预览都在vscode中完成。</p>
-<p>这里要先提一下在hexo3.0版本中编写md文件时新的图片插入方式：只要在_config.yml中添加post_asset_folder: true，就会在生成新post时创建一个同名文件夹；在md中输入，就可以插入这个文件夹中的图片。(这种方式较之以前把图片放在source&#x2F;images，方式更整洁，图片随文章分类)<br>vscode有很多md的插件，这里推荐两个插件，并针对hexo做一些配置调整，以满足插入图片与预览md的需求：</p>
-<span id="more"></span>
-<ol>
-<li>粘贴图片Paste Image
-这个插件用来在md文档中粘贴图片，默认会在文档的同级目录下新建一个图片文件，并在md中插入一行相对路径的图片代码。迎合上述hexo的新图片插入方式，可以在vscode的user-settings里新增两条配置：</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;pasteImage.path&quot;: &quot;$&#123;currentFileNameWithoutExt&#125;/&quot;,</span><br><span class="line">&quot;pasteImage.insertPattern&quot;: &quot;&#123;% asset_img $&#123;imageFileName&#125; %&#125;&quot;</span><br></pre></td></tr></table></figure>
+        <h2 id="hexo-d命令报错"><a href="#hexo-d命令报错" class="headerlink" title="hexo d命令报错"></a>hexo d命令报错</h2><p><img src="/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/1.PNG" alt="图片加载失败" title="报错"> </p>
 
-<p>这样以来，粘贴的图片就会保存到md文档的同名文件夹下，文档中将插入hexo asset语法的代码。<br>2. 预览Markdown Preview Enhanced</p>
 
-<p>这个是下载量最高的vscode md预览插件，支持很多功能，并支持扩展md解析语法。现在就要利用这个功能来解决一个问题：vscode内无法预览代码的图片。ctrl+shift+P输入Markdown Preview Enhanced: Extend Parser调出插件的parse.js文件，修改其中的onWillParseMarkdown方法：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">onWillParseMarkdown</span>: <span class="keyword">function</span>(<span class="params">markdown</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve, reject</span>)=&gt;</span> &#123;</span><br><span class="line">      markdown = markdown.<span class="title function_">replace</span>(</span><br><span class="line">        <span class="regexp">/\&#123;%\s*asset_img\s*(.*)\s*%\&#125;/g</span>,</span><br><span class="line">        <span class="function">(<span class="params">whole, content</span>) =&gt;</span> (<span class="string">`![](<span class="subst">$&#123;content&#125;</span>)`</span>)</span><br><span class="line">      )</span><br><span class="line">      <span class="keyword">return</span> <span class="title function_">resolve</span>(markdown)</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;,</span><br><span class="line">  ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<img src="hexo-d命令报错/1.PNG">
 
-<p>这样以来，我们md中的代码就会在解析预览时被替换成md的图片语法，并且同样采用相对路径，图片预览成功。</p>
-
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_51269961/article/details/123709195">errno 10054解决方法</a></p>
+<p>或者重新执行以下<a target="_blank" rel="noopener" href="https://blog.csdn.net/lpnidie/article/details/126822395?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~YuanLiJiHua~Position-2-126822395-blog-121265345.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~YuanLiJiHua~Position-2-126822395-blog-121265345.pc_relevant_aa&utm_relevant_index=5">命令</a></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save #安装hexo-deployer-git 自动部署发布工具</span><br><span class="line">hexo g # 这是生成静态博客页面的命令</span><br><span class="line">hexo d # 把博客文件部署到GitHub中创建的仓库中</span><br></pre></td></tr></table></figure>
       
 
       
@@ -397,26 +391,11 @@ var _hmt = _hmt || [];
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
         		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Vscode</a>
-        		</li>
       		
 		</ul>
 	</div>
 
       
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/环境搭建//" class="article-tag-list-link color5">环境搭建</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
 
       
 
@@ -466,7 +445,7 @@ var _hmt = _hmt || [];
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://wgp36915.github.io/2019/03/12/hexo%20d%20%E6%8A%A5%E9%94%99/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://wgp36915.github.io/2022/11/17/hexo-d%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -480,18 +459,9 @@ var _hmt = _hmt || [];
   
 <nav id="article-nav">
   
-    <a href="/2019/03/12/Hexo%E4%B8%BB%E9%A2%98%E5%8F%98%E6%8D%A2%E4%B8%8E%E6%B7%BB%E5%8A%A0%E6%8F%92%E4%BB%B6/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Hexo主题变化与添加插件
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/03/12/vscode%E7%BC%96%E5%86%99md/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">VsCode编写Hexo支持的MD文档</div>
+    <a href="/2022/10/30/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -670,10 +640,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Vscode</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
@@ -687,6 +653,10 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">安全</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Vscode</a>
               </li>
              
               <li class="article-tag-list-item">
